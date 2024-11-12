@@ -8,7 +8,7 @@ const HomeSection = () => {
       <div className="home-container">
         <div className="text-container">
           <h1 className="home-heading">
-            Hi, I'm <span className="highlight">Ausaf Ahmed</span>
+            Hi, Im <span className="highlight">Ausaf Ahmed</span>
           </h1>
           <p className="home-paragraph">
             I am a passionate frontend developer specialized in building

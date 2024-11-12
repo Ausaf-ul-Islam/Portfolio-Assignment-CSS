@@ -1,0 +1,19 @@
+/* Footer.css */
+.footer {
+    background: linear-gradient(to right, #152027, #1f2930);
+    color: #f39c12;
+    padding: 1rem 0;
+  }
+  
+  .footer p {
+    font-size: 1.125rem; /* Equivalent to text-lg in Tailwind */
+    text-align: center;
+    margin: 0;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px; /* Adjust the width to your design */
+    margin: 0 auto;
+  }
+  

@@ -1,0 +1,100 @@
+/* Home section container */
+#home {
+    background: linear-gradient(to right, #1C2B35, #3C4C58);
+    color: white;
+    padding: 8rem 1.5rem ;
+  }
+  
+  /* Container styling */
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @media (min-width: 768px) {
+    .home-container {
+      flex-direction: row;
+    }
+  }
+  
+  /* Text container */
+  .text-container {
+    text-align: center;
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .text-container {
+      text-align: left;
+      width: 50%;
+    }
+  }
+  
+  /* Heading styling */
+  .home-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+  
+  @media (min-width: 768px) {
+    .home-heading {
+      font-size: 3rem;
+    }
+  }
+  
+  /* Highlighted text styling */
+  .highlight {
+    color: #F39C12;
+  }
+  
+  /* Paragraph styling */
+  .home-paragraph {
+    margin-top: 1rem;
+    font-size: 1.125rem;
+    color: #d1d5db;
+  }
+  
+  /* Button styling */
+  .download-button {
+    margin-top: 2rem;
+    background-color: #F39C12;
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+
+    border: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .download-button:hover {
+    background-color: #917f64;
+    color: #F39C12;
+
+  }
+  
+  /* Profile image container */
+  .image-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .image-container {
+      margin-top: 0;
+      width: 50%;
+    }
+  }
+  
+  /* Profile image styling */
+  .profile-image {
+    border-radius: 9999px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    border: 4px solid #F39C12;
+  }
+  

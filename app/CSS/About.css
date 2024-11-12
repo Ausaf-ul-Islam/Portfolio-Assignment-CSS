@@ -1,0 +1,95 @@
+/* About section styling */
+#about {
+    background: linear-gradient(to right, #1C2B35, #3C4C58);
+    min-height: 100vh;
+    padding: 4rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @media (min-width: 768px) {
+    #about {
+      flex-direction: row;
+      padding: 4rem 2rem;
+    }
+  }
+  
+  /* Profile image container */
+  .profile-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .profile-image-container {
+      width: 33.333%;
+      margin-bottom: 0;
+    }
+  }
+  
+  /* Profile image styling */
+  .profile-image {
+    border-radius: 9999px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    border: 4px solid #F39C12;
+  }
+  
+  /* Content container */
+  .content-container {
+    width: 100%;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .content-container {
+      width: 66.667%;
+      text-align: left;
+      margin-left: 2.5rem;
+    }
+  }
+  
+  /* Section title */
+  .section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #F39C12;
+  }
+  
+  /* Section description */
+  .section-description {
+    margin-top: 1rem;
+    font-size: 1.125rem;
+    color: #d1d5db;
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media (min-width: 768px) {
+    .section-description {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  
+  /* Button styling */
+  .read-more-button {
+    margin-top: 2rem;
+    background-color: #F39C12;
+    font-weight: 600;
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .read-more-button:hover {
+    background-color: #917f64;
+    color: #F39C12;
+  }
+  
